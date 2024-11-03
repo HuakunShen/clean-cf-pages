@@ -1,0 +1,22 @@
+{
+  "name": "clean-cf-pages",
+  "type": "module",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "bun build cli.ts --target node --outdir dist --minify"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "valibot": "^0.42.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "citty": "^0.1.6",
+    "exponential-backoff": "^3.1.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
