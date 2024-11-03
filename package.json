@@ -1,6 +1,8 @@
 {
   "name": "clean-cf-pages",
   "type": "module",
+  "version": "0.1.0",
+  "repository": "https://github.com/HuakunShen/clean-cf-pages.git",
   "bin": "dist/cli.js",
   "scripts": {
     "build": "bun build cli.ts --target node --outdir dist --minify"
