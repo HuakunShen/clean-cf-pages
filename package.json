@@ -1,7 +1,7 @@
 {
   "name": "clean-cf-pages",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "https://github.com/HuakunShen/clean-cf-pages.git",
   "bin": "dist/cli.js",
   "scripts": {
